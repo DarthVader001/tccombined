@@ -848,4 +848,8 @@ nav.scrolled {
   .cards img{
     filter: grayscale(0%);
   }
+
+  .cards figcaption{
+    visibility: hidden;
+  }
 }
