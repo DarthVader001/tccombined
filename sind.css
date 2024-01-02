@@ -734,7 +734,7 @@ nav.scrolled {
 @media screen and (max-width: 578px) {
   
   .animating{
-      scale: 1.9;
+      scale: 2;
   }
 }
 
@@ -840,5 +840,12 @@ nav.scrolled {
 
 @media screen and (max-width: 760px){
   .heading_spons{
-    width: 70vw;
+    width: 60vw;
+  }
+  .cards{
+    width: 15vw;
+  }
+  .cards img{
+    filter: grayscale(0%);
+  }
 }
