@@ -734,7 +734,7 @@ nav.scrolled {
 @media screen and (max-width: 578px) {
   
   .animating{
-      scale: 1.4;
+      scale: 1.9;
   }
 }
 
@@ -748,7 +748,7 @@ nav.scrolled {
 }
 
 .heading_spons{
-  color: rgb(129, 75, 238);
+  color: goldenrod;
 
 
 }
@@ -836,4 +836,9 @@ nav.scrolled {
 .cards:hover figcaption{
   opacity: 1;
   transform: scale(1.03);
+}
+
+@media screen and (max-width: 760px){
+  .heading_spons{
+    width: 70vw;
 }
