@@ -733,7 +733,9 @@ nav.scrolled {
 
 @media screen and (max-width: 578px) {
   
-  
+  .animating{
+      scale: 1.4;
+  }
 }
 
 /* Sponsors css */
